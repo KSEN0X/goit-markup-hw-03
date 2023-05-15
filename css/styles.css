@@ -136,8 +136,7 @@ img {
 */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 24px 0px;
   border-bottom: 1px solid #E7E9FC;
 
 }
@@ -478,6 +477,7 @@ img {
 .modal-button:focus {
   background-color: #404bbf;
   color: #ffffff;
+  border: 1px solid transparent
 }
 
 .cards-list {
@@ -494,7 +494,8 @@ flex-basis: calc((100% - 24px * 2) /3)
 
 .cards-description {
 padding: 32px 16px;  
-border: 1px solid #E7E9FC
+border: 1px solid #E7E9FC;
+border-top: none;
 }
 
 .cart-title {
