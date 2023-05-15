@@ -136,9 +136,7 @@ img {
 */
 
 .header {
-  padding-top: 24px 0px;
   border-bottom: 1px solid #E7E9FC;
-
 }
 
 .header-container {
@@ -192,6 +190,8 @@ img {
 
 /* HEADER NAV */
 .header-nav-link {
+  padding: 24px 0px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
